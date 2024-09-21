@@ -21,7 +21,7 @@ def binary_search(arr, low, high, x):
 		return False
 
 # Test array
-arr1 =list( map(int,input('Enter your list : ').split()))
+arr1 =list(map(int,input('Enter your list : ').split(',')))
 arr=arr1.copy()
 
 arr.sort()
